@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <!-- fav-icon -->
+    <link rel="icon" href="./img/ic_fav.svg" type="icon">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="header-text text-center py-3">
+            <h6 class="mb-0">Welcome to snaker shoes</h6>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- navbar start -->
+    <nav class="navbar navigation_bar navbar-expand-lg position-sticky top-0 z-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo.svg" class="img-fluid" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+                aria-controls="navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                <div class="offcanvas-header justify-content-end">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active" aria-current="page" href="#home" data-section="home">HOME</a>
+                        </li>
+                        <!-- <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active" aria-current="page" href="#blog" data-section="blog">BLOG</a>
+                        </li> -->
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link text-nowrap" href="#collection" data-section="collection">NEW
+                                COLLECTION</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link text-nowrap" href="#product" data-section="product">OUR
+                                PRODUCT</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#gallery" data-section="gallery">ABOUT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section -->
+    <section id="home">
+        <div class="hero-navigation-background position-relative">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div class="hero-text">
+                            <h6>Best collection in the world</h6>
+                            <div class="hero-stylish-text position-relative">
+                                <h1>Stylish Shoes
+                                    For You</h1>
+                                <img src="./img/img_hero_border.svg" class="img-fluid img-hero-border"
+                                    alt="img_hero_border">
+                            </div>
+
+                            <p>Shoes are a life necessity, just like food and clothing thus, they’ll always be in
+                                demand. Any retailer that has shifted focus to online commerce, would have had to invest
+                                a great deal in building a website that provides the best possible user experience.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="./img/img_hero_01.png" class="img-fluid position-relative z-1"
+                                alt="img_hero_01.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-position-img">
+                <img src="./img/img_hero_02.png" class="img-fluid" alt="img_hero_02.png">
+            </div>
+        </div>
+    </section>
+    <!-- hero section end-->
+
+    <!-- new collection section -->
+    <section id="collection">
+        <div class="my-5">
+            <div class="text-center new-collection-text">
+                <h1><span>New</span> Collection</h1>
+                <p>You will get the freedom to walk with our sports shoes</p>
+                <img src="./img/header_line.svg" class="img-fluid" alt="header_line">
+            </div>
+            <div class="container">
+                <div class="new-collection-margin">
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-6 mt-4 text-center">
+                            <div>
+                                <img src="./img/img_new_collection_01.png" class="img-fluid new-collection-img"
+                                    alt="img_new_collection_01">
+                                <div class="new-collection-img-text text-center">
+                                    <h6 class="mb-0 pt-4">Running Shoes</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 text-center">
+                            <div>
+                                <img src="./img/img_new_collection_02.png" class="img-fluid new-collection-img"
+                                    alt="img_new_collection_02">
+                                <div class="new-collection-img-text text-center">
+                                    <h6 class="mb-0 pt-4">Oxford Shoes</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-4 text-center">
+                            <div>
+                                <img src="./img/img_new_collection_03.png" class="img-fluid new-collection-img"
+                                    alt="img_new_collection_03">
+                                <div class="new-collection-img-text text-center">
+                                    <h6 class="mb-0 pt-4">Brogue Shoes</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new collection section end-->
+
+    <!-- best feature section -->
+    <section id="feature" class="my-5">
+        <div class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-4">
+                        <div class="feature-section-text">
+                            <h3>Know about best <span>feature
+                                    in shoes.</span></h3>
+                            <img src="./img/header_line.svg" class="img-fluid" alt="header_line">
+                        </div>
+                        <div class="mt-5">
+                            <div class="d-flex best-feature-ic">
+                                <div>
+                                    <div class="feature-icon">
+                                        <img src="./img/ic_feature_01.svg" class="img-fluid" alt="ic_feature_01">
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="feature-ic-text ps-lg-4 ps-md-0 mt-lg-0 mt-md-3">
+                                        <h6>Best Quality Shoes</h6>
+                                        <p class="mb-0">Running shoes have a number of benefits. They can improve your
+                                            foot strength and flexibility, help you maintain better posture.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <div class="d-flex best-feature-ic">
+                                <div>
+                                    <div class="feature-icon">
+                                        <img src="./img/ic_feature_02.svg" class="img-fluid" alt="ic_feature_02">
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="feature-ic-text ps-lg-4 ps-md-0 mt-lg-0 mt-md-3">
+                                        <h6>Long Lasting Shoes</h6>
+                                        <p class="mb-0">We can say with confidence that the top two best shoe brands
+                                            are Nike and Adidas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <div class="d-flex best-feature-ic">
+                                <div>
+                                    <div class="feature-icon">
+                                        <img src="./img/ic_feature_03.svg" class="img-fluid" alt="ic_feature_03">
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center best-feature-ic-text">
+                                    <div class="feature-ic-text ps-lg-4 ps-md-0 mt-lg-0 mt-md-3">
+                                        <h6>Special Gift Cards</h6>
+                                        <p class="mb-0">Buy gift cards customized in any quantity</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <img src="./img/img_feature_01.png" class="img-fluid" alt="img_feature_01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best feature section end -->
+
+    <!-- trending product section -->
+    <section id="product" class="my-5">
+        <div class="pt-5">
+            <div class="text-center trending-product-text">
+                <h3>A <span>top-trending</span> products</h3>
+                <p>Explore World Class Top Shoes As Per Your<br> Requirements & Choice</p>
+                <img src="./img/header_line_02.svg" class="img-fluid" alt="header_line_02">
+            </div>
+
+            <div class="container">
+                <div class="trending-product-margin">
+                    <div class="row mt-4">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="text-center ">
+                                <div class="product-img">
+                                    <img src="./img/img_trending_product_01.png" class="treding-product-img-res"
+                                        alt="img_trending_product_01">
+                                </div>
+                                <div class="tending-product-img">
+                                    <div>
+                                        <p>Nike Shoes Air Max</p>
+                                        <h6 class="mb-3">Out Door Game Time</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="text-center">
+                                <div class="product-img">
+                                    <img src="./img/img_trending_product_02.png" class="treding-product-img-res"
+                                        alt="img_trending_product_02">
+                                </div>
+                                <div class="tending-product-img">
+                                    <div>
+                                        <p>Nike Shoes Air Max</p>
+                                        <h6 class="mb-3">GYM Time</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="text-center">
+                                <div class="product-img">
+                                    <img src="./img/img_trending_product_03.png" class="treding-product-img-res"
+                                        alt="img_trending_product_03">
+                                </div>
+                                <div class="tending-product-img">
+                                    <div>
+                                        <p>Nike Shoes Air Max</p>
+                                        <h6 class="mb-3">Running Time</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="text-center">
+                                <div class="product-img">
+                                    <img src="./img/img_trending_product_04.png" class="treding-product-img-res"
+                                        alt="img_trending_product_04">
+                                </div>
+                                <div class="tending-product-img">
+                                    <div>
+                                        <p>Nike Shoes Air Max</p>
+                                        <h6 class="mb-3">Out Side Time</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- trending product section end-->
+
+    <!-- news & blog section -->
+    <section class="d-none">
+        <div class="news-background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div>
+                            <div class="our-news-text">
+                                <h1>Our Latest <span>News</span><br>
+                                    & Blog</h1>
+                                <img src="./img/header_line_03.svg" class="img-fluid" alt="header_line_03">
+                            </div>
+                            <div class="beautiful-shoes-text">
+                                <h5>50+ Beautiful Shoes
+                                    inspiration</h5>
+                                <p>Our designer already made a lot of beautiful <br> prototype of shoes that inspire you
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide news-swiper-slide">
+                                    <img src="./img/img_news_01.png" class="img-fluid news-img" alt="img_news_01">
+                                </div>
+                                <div class="swiper-slide news-swiper-slide">
+                                    <img src="./img/img_news_02.png" class="img-fluid news-img" alt="img_news_02">
+                                </div>
+                                <div class="swiper-slide news-swiper-slide">
+                                    <img src="./img/img_news_03.png" class="img-fluid news-img-03" alt="img_news_03">
+                                </div>
+                                <div class="swiper-slide news-swiper-slide">
+                                    <img src="./img/img_news_04.png" class="img-fluid" alt="img_news_04">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news & blog section end-->
+
+    <!-- join our team section -->
+    <section class="join-team">
+        <div class="team-background py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                                <img src="./img/img_team_01.png" class="img_team_01 mt-4" alt="img_team_01">
+                                <img src="./img/img_team_02.png" class="img_team_02 mt-4" alt="img_team_02">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                                <img src="./img/img_team_03.png" class="img_team_03 mt-4" alt="img_team_03">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <div class="text-center join-team-text mt-4">
+                                <h1><span>Join Our</span> Team</h1>
+                                <p class="mt-3">We Are Hunting To Expand Our Team</p>
+                                <img src="./img/header_line_03.svg" class="img-fluid" alt="header_line_03">
+                            </div>
+                        </div>
+
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6 mt-5">
+                                    <div class="input-group team-group">
+                                        <input type="text" class="team-input text-black" placeholder="Enter Your Name"
+                                            required>
+                                        <div class="input-group-text"><img src="./img/ic_join_team_01.svg"
+                                                class="img-fluid" alt="ic_join_team_01"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mt-5">
+                                    <div class="input-group team-group">
+                                        <input type="tel" class="team-input text-black"
+                                            placeholder="Enter Your Mobile No." maxlength="10" required>
+                                        <div class="input-group-text"><img src="./img/ic_join_team_02.svg"
+                                                class="img-fluid" alt="ic_join_team_02"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 mt-5">
+                                    <div class="input-group team-group">
+                                        <input type="email" class="team-input text-black" placeholder="Your Email"
+                                            required>
+                                        <div class="input-group-text"><img src="./img/ic_join_team_03.svg"
+                                                class="img-fluid" alt="ic_join_team_01"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mt-5">
+                                    <div class="input-group team-group">
+                                        <select class="team-input text-black">
+                                            <option value="">Choose Role</option>
+                                        </select>
+                                        <div class="input-group-text"><img src="./img/ic_join_team_04.svg"
+                                                class="img-fluid" alt="ic_join_team_04"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mt-5">
+                                    <div class="position-relative">
+                                        <textarea class="w-100 team-textarea px-3 py-3 text-black" name="" id=""
+                                            cols="30" rows="3" placeholder="Write Your Message" required></textarea>
+                                        <div class="team-textarea-section">
+                                            <img src="./img/ic_join_team_05.svg" class="img-fluid"
+                                                alt="ic_join_team_05">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <button class="team-button" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- join our team section end -->
+
+    <!-- subscribe section -->
+    <section class="my-5 position-relative">
+        <div class="container">
+            <div class="">
+                <div class="subscribe-bg px-3 py-3">
+                    <form>
+                        <div class="text-center subscribe-text">
+                            <h3>Subscribe to get information, latest news and other<br>
+                                interesting offers about Jadoo</h3>
+                        </div>
+                        <div>
+                            <div class="subscribe-container mt-5">
+                                <div class="row text-center">
+                                    <div class="col-lg-8 col-md-8 col-sm-8 mt-2">
+                                        <input type="email" class="subscribe-input" placeholder="Your email" required>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                                        <button type="submit" class="subscribe-btn">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="img-sbscribe-pluse">
+                        <img src="./img/img_subscribe_01.svg" class="img-fluid" alt="img_subscribe_01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe section end-->
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer-section pt-5">
+            <div class="container">
+                <div class="row footer-padding">
+                    <div class="col-lg-4 col-md-6 mt-3">
+                        <div>
+                            <img src="./img/logo.svg" class="img-fluid footer-logo" alt="">
+                            <p class="mt-4">Discover the greatest shoe collection at the
+                                most affordable prices !! Browse from the biggest
+                                shoe collection this summer and avail great discounts on every product.</p>
+                        </div>
+                        <div class="footer_icon d-flex align-items-center">
+                            <a href="#" class="me-4 footer-icon">
+                                <img src="./img/ic_footer_01.svg" class="img-fluid" alt="ic_footer_01">
+                            </a>
+
+                            <a href="#" class="me-4 footer-icon">
+                                <img src="./img/ic_footer_02.svg" class="img-fluid" alt="ic_footer_02">
+                            </a>
+
+                            <a href="#" class="me-4 footer-icon">
+                                <img src="./img/ic_footer_03.svg" class="img-fluid" alt="ic_footer_03">
+                            </a>
+                            <a href="#" class="footer-icon">
+                                <img src="./img/ic_footer_04.svg" class="img-fluid" alt="ic_footer_04">
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-3 footer-header">
+                        <h6>
+                            Company
+                        </h6>
+                        <p class="mt-4 mb-0">
+                            <a href="#home" class="text-reset text-decoration-none hover-a-style">About</a>
+                        </p><br>
+                        <p>
+                            <a href="#feature" class="text-reset text-decoration-none hover-a-style">Features</a>
+                        </p><br>
+                        <!-- <p class="mb-2 hover-style">
+                            <a href="#service" class="text-reset text-decoration-none hover-a-style">Service</a>
+                        </p><br>
+                        <p class="mb-2 hover-style">
+                            <a href="#" class="text-reset text-decoration-none hover-a-style">Video</a>
+                        </p><br>
+                        <p class="mb-2 hover-style">
+                            <a href="#" class="text-reset text-decoration-none hover-a-style">Event</a>
+                        </p><br>
+                        <p class="mb-2 hover-style">
+                            <a href="#gallery" class="text-reset text-decoration-none hover-a-style">Gallery </a>
+                        </p> -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-3 footer-header">
+                        <h6>Contact Us</h6>
+                        <p>2214 - Turkey Pen Road, UTC-5: Eastern Standard Time (EST),
+                            New York
+                            (917-281-7551)</p>
+                        <p><a href="tel:+1202-918-2132" class="text-decoration-none text-black">+1 202-918-2132</a></p>
+                        <p><a href="mailto:festumevento@gmail.com"
+                                class="text-decoration-none text-black">festumfield@gmail.com</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-3 footer-header">
+                        <h6>Flickr</h6>
+                        <div>
+                            <div class="d-flex align-items-center mt-4">
+                                <div class="footer-img">
+                                    <img src="img/img_footer_01.svg" alt="img_footer_01" class="img-fluid">
+                                </div>
+                                <div class="footer-img">
+                                    <img src="img/img_footer_02.svg" alt="img_footer_02" class="img-fluid ps-3">
+                                </div>
+                                <div class="footer-img">
+                                    <img src="img/img_footer_03.svg" alt="img_footer_03" class="img-fluid ps-3">
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center my-2">
+                                <div class="mt-2 footer-img">
+                                    <img src="img/img_footer_04.svg" alt="img_footer_04" class="img-fluid">
+                                </div>
+                                <div class="mt-2 footer-img">
+                                    <img src="img/img_footer_05.svg" alt="img_footer_05" class="img-fluid ps-3">
+                                </div>
+                                <div class="mt-2 footer-img">
+                                    <img src="img/img_footer_06.svg" alt="img_footer_06" class="img-fluid ps-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-act-text text-center">
+                <p class="mb-0 py-4">@2024 All rights reserved. Designed by <a href="https://festumfield.com/"
+                        target="_blank">Festum Field</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- back-to-top -->
+    <button type="button" class="btn-floating btn-lg  back-to-top-button" id="btn-back-to-top">
+        <img src="./img/ic_back-to-top.svg" class="img-fluid " alt="ic-back-to-top">
+    </button>
+    <!--  -->
+    <!-- main js link  -->
+    <script src="./js/main.js"></script>
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="./js/all.min.js"></script>
+</body>
+</body>
+
+</html>
